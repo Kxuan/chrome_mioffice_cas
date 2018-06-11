@@ -11,8 +11,7 @@
     "scripts": [
       "background.js"
     ],
-    // we use webRequest
-    "persistent": true
+    "persistent": false
   },
   "options_ui": {
     "page": "option/options.html",
@@ -37,8 +36,6 @@
     "default_popup":"browser_action/popup.html"
   },
   "permissions": [
-    "webRequest",
-    "webRequestBlocking",
     "storage",
     "https://cas.mioffice.cn/*"
   ]
