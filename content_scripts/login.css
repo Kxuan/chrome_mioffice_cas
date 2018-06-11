@@ -1,0 +1,31 @@
+.cas_status_top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.cas_status_top > div {
+    position: relative;
+    left: -50%;
+    font-weight: bold;
+}
+
+.cas_status_top.info, .cas_status_embeded.info > div {
+    background-color: #eff;
+    color: darkgreen;
+    border: 2px solid aliceblue;
+}
+
+.cas_status_top.warn, .cas_status_embeded.warn > div {
+    background-color: #fff7ec;
+    color: orange;
+    border: 2px solid orange;
+}
+
+.a_green_button {
+    background-color: greenyellow !important;
+}
+
+.a_grey_button {
+    background-color: grey !important;
+}

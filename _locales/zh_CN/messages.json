@@ -1,0 +1,29 @@
+{
+  "extName": {
+    "message": "MiOffice 自动CAS"
+  },
+  "opt_loading": {
+    "message": "加载配置中..."
+  },
+  "opt_saving": {
+    "message": "保存中..."
+  },
+  "opt_saved": {
+    "message": "已保存"
+  },
+  "login_not_configured": {
+    "message": "你还没配置用户名密码，快到拓展程序的设置界面配置一下。"
+  },
+  "login_filled": {
+    "message": "已填写。"
+  },
+  "login_autologin": {
+    "message": "正在自动登录..."
+  },
+  "browser_action_copy_pwd": {
+    "message": "复制密码"
+  },
+  "browser_action_copy_pwd_otp": {
+    "message": "复制密码+OTP"
+  }
+}

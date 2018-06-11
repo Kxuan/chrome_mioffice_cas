@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "1.0",
+  "default_locale": "zh_CN",
+  "description": "自动跳过烦人的CAS登录页。",
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    // we use webRequest
+    "persistent": true
+  },
+  "options_ui": {
+    "page": "option/options.html",
+    "open_in_tab": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cas.mioffice.cn/*"
+      ],
+      "css": [
+        "content_scripts/login.css"
+      ],
+      "js": [
+        "libs/jsOTP.min.js",
+        "content_scripts/login.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_popup":"browser_action/popup.html"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "https://cas.mioffice.cn/*"
+  ]
+}
