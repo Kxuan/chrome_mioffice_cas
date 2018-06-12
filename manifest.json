@@ -20,7 +20,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://cas.mioffice.cn/*"
+        "https://cas.mioffice.cn/*",
+        "https://d.xiaomi.com/"
       ],
       "css": [
         "content_scripts/login.css"

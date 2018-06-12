@@ -5,9 +5,9 @@ var current_cfg = {
     "auto_login": false,
 };
 var el_un = document.getElementById("username"),
-    el_pw = document.getElementById("password"),
+    el_pw = document.getElementById("password") || document.getElementById("passwd"),
     el_otp = document.querySelector("input[name='otpCode']"),
-    el_submit = document.querySelector('button[type=submit]');
+    el_submit = document.querySelector('button[type=submit]') || document.getElementById("submitBtn");
 
 function showStatus(style, text, onclick) {
     let el_wrapper = document.createElement('a');
