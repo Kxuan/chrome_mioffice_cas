@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extName__",
-  "version": "1.0.1",
+  "version": "1.1",
   "default_locale": "zh_CN",
   "description": "自动跳过烦人的CAS登录页。",
   "icons": {
