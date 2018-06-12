@@ -14,6 +14,10 @@ button:hover {
     background-color: #59df5d; /* Green */
 }
 
+button:disabled {
+    background-color: #aaa;
+}
+
 body {
     width: 120pt;
 }
