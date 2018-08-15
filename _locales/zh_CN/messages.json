@@ -20,10 +20,19 @@
   "login_autologin": {
     "message": "正在自动登录..."
   },
+  "browser_action_copy_label": {
+    "message": "复制内容："
+  },
   "browser_action_copy_pwd": {
-    "message": "复制密码"
+    "message": "密码"
   },
   "browser_action_copy_pwd_otp": {
-    "message": "复制密码+OTP"
+    "message": "密码OTP"
+  },
+  "browser_action_copy_pwd_lf_otp": {
+    "message": "密码\nOTP"
+  },
+  "browser_action_copy_otp": {
+    "message": "仅OTP"
   }
 }

@@ -6,9 +6,16 @@
     <link type="text/css" rel="stylesheet" href="popup.css"/>
 </head>
 <body>
-<button id="cp_pwd" disabled></button>
-<button id="cp_pwd_otp" disabled></button>
-<input type="text" id="buf" style="display: none">
+<div id="title">复制内容：</div>
+<div class="box">
+    <ol>
+        <li class="cp_button disabled" id="cp_pwd"></li>
+        <li class="cp_button disabled" id="cp_pwd_otp"></li>
+        <li class="cp_button disabled" id="cp_pwd_lf_otp"></li>
+        <li class="cp_button disabled" id="cp_otp"></li>
+    </ol>
+</div>
+<textarea id="buf" style="display: none" ></textarea>
 <script src="../libs/jsOTP.min.js" type="text/javascript"></script>
 <script src="popup.js" type="text/javascript"></script>
 </body>

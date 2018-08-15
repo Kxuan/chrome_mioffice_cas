@@ -1,23 +1,30 @@
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.cp_button {
+    color: blue;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #59df5d; /* Green */
+.cp_button.disabled {
+    color: gray;
+    cursor: not-allowed;
 }
 
-button:disabled {
-    background-color: #aaa;
+.cp_button:hover {
+    color: cyan;
+}
+
+.cp_button.disabled:hover {
+    color: gray;
 }
 
 body {
     width: 120pt;
+
+}
+
+.box ol {
+    list-style-type: square;
+}
+
+.box li {
+    padding: 2px;
 }
